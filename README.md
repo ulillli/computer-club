@@ -37,3 +37,13 @@ chmod +x run_all_tests.sh
 - data/test5_closed_club.txt - clients try to leave after closing
 - data/test6_all_leave.txt - all clients leave the club well
 - data/test7_queue_overflow.txt - queue management test
+
+### Google Tests (Optional)
+- Building with Google Tests via CMake + Ninja
+```
+mkdir build_tests && cd build_tests
+cmake -G Ninja ..
+ninja
+
+./run_all_tests
+```
