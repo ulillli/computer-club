@@ -4,11 +4,11 @@
 
 ### With GCC
 ```bash
-g++ -std=c++17 -Iinclude samples/main.cpp -o computer_club
+g++ -Iinclude samples/main.cpp -o computer_club
 ```
 ### With Clang
 ```bash
-clang++ -std=c++17 -Iinclude samples/main.cpp -o computer_club
+clang++ -Iinclude samples/main.cpp -o computer_club
 ```
 ### With CMake + Ninja
 ```bash
